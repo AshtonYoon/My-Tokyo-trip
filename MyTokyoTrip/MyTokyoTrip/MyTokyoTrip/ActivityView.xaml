@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      x:Class="MyTokyoTrip.ActivityView"
+      ColumnSpacing="50">
+    <StackLayout x:Name="container"
+                 Grid.Column="0">
+        <Label Text="00:00 - 05:00"
+               FontAttributes="Bold"
+               TextColor="Orange"
+               FontSize="Small"
+               HorizontalOptions="End"/>
+        <Label Text="Sleep"
+               FontAttributes="Bold"
+               TextColor="White"
+               FontSize="50"
+               HorizontalOptions="End" />
+        <Label Text="Description"
+               TextColor="#4f5d68"
+               FontSize="Micro"
+               HorizontalOptions="End" />
+    </StackLayout>
+    <BoxView WidthRequest="2"
+             BackgroundColor="#192227"
+             Grid.ColumnSpan="2"
+             HorizontalOptions="Center" />
+</Grid>
