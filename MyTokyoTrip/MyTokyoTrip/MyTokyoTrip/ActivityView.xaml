@@ -5,17 +5,17 @@
       ColumnSpacing="50">
     <StackLayout x:Name="container"
                  Grid.Column="0">
-        <Label Text="00:00 - 05:00"
+        <Label Text="{Binding ActivityTime}"
                FontAttributes="Bold"
                TextColor="Orange"
                FontSize="Small"
                HorizontalOptions="End"/>
-        <Label Text="Sleep"
+        <Label Text="{Binding ActivityName}"
                FontAttributes="Bold"
                TextColor="White"
                FontSize="50"
                HorizontalOptions="End" />
-        <Label Text="Description"
+        <Label Text="{Binding ActivityDescription}"
                TextColor="#4f5d68"
                FontSize="Micro"
                HorizontalOptions="End" />
@@ -23,5 +23,12 @@
     <BoxView WidthRequest="2"
              BackgroundColor="#192227"
              Grid.ColumnSpan="2"
-             HorizontalOptions="Center" />
+             HorizontalOptions="Center" 
+             VerticalOptions="Fill"/>
+    <Image Source="circle.png"
+           Grid.ColumnSpan="2"
+           HorizontalOptions="Center"
+           HeightRequest="10"
+           WidthRequest="10" 
+           VerticalOptions="Start"/>
 </Grid>

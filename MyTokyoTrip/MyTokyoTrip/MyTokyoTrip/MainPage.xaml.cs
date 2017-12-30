@@ -12,9 +12,14 @@ namespace MyTokyoTrip
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage : CarouselPage
     {
+        public ActivityModels activityModels;
+
         public MainPage()
         {
             InitializeComponent();
+            activityModels = new ActivityModels();
+
+            Jan9thPage.BindingContext = activityModels.Jan9th;
         }
     }
 }

@@ -3,7 +3,8 @@
               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:local="clr-namespace:MyTokyoTrip"
               x:Class="MyTokyoTrip.MainPage">
-    <local:DayPage />
-    <local:DayPage />
-    <local:DayPage />
+    <local:DayPage x:Name="Jan9thPage"/>
+    <local:DayPage x:Name="Jan10thPage"/>
+    <local:DayPage x:Name="Jan11thPage"/>
+    <local:DayPage x:Name="Jan12thPage"/>
 </CarouselPage>

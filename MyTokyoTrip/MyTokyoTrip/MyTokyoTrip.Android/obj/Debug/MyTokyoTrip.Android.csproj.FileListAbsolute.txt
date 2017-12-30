@@ -55,3 +55,4 @@ C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\res\drawable\circle.png

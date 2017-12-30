@@ -15,8 +15,24 @@ namespace MyTokyoTrip {
     public partial class MainPage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::MyTokyoTrip.DayPage Jan9thPage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::MyTokyoTrip.DayPage Jan10thPage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::MyTokyoTrip.DayPage Jan11thPage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::MyTokyoTrip.DayPage Jan12thPage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            Jan9thPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MyTokyoTrip.DayPage>(this, "Jan9thPage");
+            Jan10thPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MyTokyoTrip.DayPage>(this, "Jan10thPage");
+            Jan11thPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MyTokyoTrip.DayPage>(this, "Jan11thPage");
+            Jan12thPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::MyTokyoTrip.DayPage>(this, "Jan12thPage");
         }
     }
 }
