@@ -18,7 +18,7 @@ namespace MyTokyoTrip
         public DateTime StartTime { get => startTime; set => startTime = value; }
         public DateTime EndTime { get => endTime; set => endTime = value; }
         public string ActivityName { get => activityName; set => activityName = value; }
-        public string ActivityDescription { get => activityDescription; set => activityDescription = value; }
+        public string ActivityDescription { get => $"{activityDescription}\n\n"; set => activityDescription = value; }
 
         public string ActivityTime => $"{string.Format("{0:HH:mm}", startTime)} - {string.Format("{0:HH:mm}", endTime)}";
     }

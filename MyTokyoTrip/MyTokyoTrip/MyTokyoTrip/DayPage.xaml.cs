@@ -24,11 +24,12 @@ namespace MyTokyoTrip
 
             if (BindingContext is ObservableCollection<ActivityModel> collection)
             {
-                foreach (var element in collection)
+                for (int i = 0; i < collection.Count(); i++)
                 {
                     container.Children.Add(new ActivityView
                     {
-                        BindingContext = element
+                        BindingContext = collection[i],
+                        Postion = i % 2 == 0 ? ActivityView.ContentPosition.Left : ActivityView.ContentPosition.Right
                     });
                 };
             }

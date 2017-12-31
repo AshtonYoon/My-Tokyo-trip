@@ -20,6 +20,7 @@ namespace MyTokyoTrip
             activityModels = new ActivityModels();
 
             Jan9thPage.BindingContext = activityModels.Jan9th;
+            Jan9thPage.Title = "1월 9일";
         }
     }
 }

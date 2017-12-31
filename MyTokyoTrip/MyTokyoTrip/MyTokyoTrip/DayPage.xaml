@@ -8,6 +8,12 @@
                 VerticalOptions="Center"
                 HorizontalOptions="Center">
         <StackLayout x:Name="container"
-                     Spacing="0" />
+                     Spacing="0">
+            <BoxView WidthRequest="2"
+                     HeightRequest="40"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Start"
+                     BackgroundColor="#192227" />
+        </StackLayout>
     </ScrollView>
 </ContentPage>
