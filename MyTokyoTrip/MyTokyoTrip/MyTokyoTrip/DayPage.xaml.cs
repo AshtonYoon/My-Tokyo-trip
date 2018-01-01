@@ -13,6 +13,12 @@ namespace MyTokyoTrip
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DayPage : ContentPage
     {
+        public ImageSource Background
+        {
+            get => backgroundImage.Source;
+            set => backgroundImage.Source = value;
+        }
+
         public DayPage()
         {
             InitializeComponent();

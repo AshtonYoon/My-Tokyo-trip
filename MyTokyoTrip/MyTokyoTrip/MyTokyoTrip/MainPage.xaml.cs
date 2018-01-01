@@ -24,16 +24,16 @@ namespace MyTokyoTrip
             CurrentPageChanged += CarouselPage_CurrentPageChanged;
 
             Jan9thPage.BindingContext = activityModels.Jan9th;
-            Jan9thPage.BackgroundImage = "layer_1.png";
+            Jan9thPage.Background = "layer_1.png";
 
             Jan10thPage.BindingContext = activityModels.Jan10th;
-            Jan10thPage.BackgroundImage = "layer_2.png";
+            Jan10thPage.Background = "layer_2.png";
 
             Jan11thPage.BindingContext = activityModels.Jan11th;
-            Jan11thPage.BackgroundImage = "layer_3.png";
+            Jan11thPage.Background = "layer_3.png";
 
             Jan12thPage.BindingContext = activityModels.Jan12th;
-            Jan12thPage.BackgroundImage = "layer_4.png";
+            Jan12thPage.Background = "layer_4.png";
         }
 
         private void CarouselPage_CurrentPageChanged(object sender, EventArgs e)

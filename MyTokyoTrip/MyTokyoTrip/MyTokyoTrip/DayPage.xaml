@@ -3,18 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              xmlns:local="clr-namespace:MyTokyoTrip"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="MyTokyoTrip.DayPage"
              BackgroundColor="Transparent">
-    <ScrollView Padding="10, 0"
-                VerticalOptions="Center"
-                HorizontalOptions="Center">
-        <StackLayout x:Name="container"
-                     Spacing="0">
-            <BoxView WidthRequest="2"
-                     HeightRequest="40"
-                     HorizontalOptions="Center"
-                     VerticalOptions="Start"
-                     BackgroundColor="White" />
-        </StackLayout>
-    </ScrollView>
+    <Grid>
+        <ffimageloading:CachedImage x:Name="backgroundImage"
+                                    Aspect="AspectFill"/>
+        <ScrollView Padding="10, 0"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center">
+            <StackLayout x:Name="container"
+                         Spacing="0">
+                <BoxView WidthRequest="2"
+                         HeightRequest="40"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Start"
+                         BackgroundColor="White" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>

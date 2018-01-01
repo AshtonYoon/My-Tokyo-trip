@@ -16,3 +16,11 @@ C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\obj\Debug\MyTokyoT
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\obj\Debug\MyTokyoTrip.dll
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\obj\Debug\MyTokyoTrip.pdb
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\obj\Debug\MyTokyoTrip.ActivityView.xaml.g.cs
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.dll
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.Forms.dll
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.Platform.dll
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.pdb
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.xml
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.Forms.pdb
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.Forms.xml
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip\bin\Debug\FFImageLoading.Platform.xml
