@@ -14,12 +14,8 @@ namespace MyTokyoTrip
         public App()
         {
             InitializeComponent();
-
-            navigationPage = new NavigationPage(new MainPage())
-            {
-                Title = "1월 9일"
-            };
-            MainPage = navigationPage;
+            
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

@@ -4,7 +4,7 @@
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              xmlns:local="clr-namespace:MyTokyoTrip"
              x:Class="MyTokyoTrip.DayPage"
-             BackgroundColor="Black">
+             BackgroundColor="Transparent">
     <ScrollView Padding="10, 0"
                 VerticalOptions="Center"
                 HorizontalOptions="Center">
@@ -14,7 +14,7 @@
                      HeightRequest="40"
                      HorizontalOptions="Center"
                      VerticalOptions="Start"
-                     BackgroundColor="#192227" />
+                     BackgroundColor="White" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

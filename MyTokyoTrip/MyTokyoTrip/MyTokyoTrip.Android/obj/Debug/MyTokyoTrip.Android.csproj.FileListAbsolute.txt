@@ -56,3 +56,7 @@ C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\res\drawable\circle.png
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\res\drawable\layer_1.png
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\res\drawable\layer_2.png
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\res\drawable\layer_3.png
+C:\Projects\My-Tokyo-trip\MyTokyoTrip\MyTokyoTrip\MyTokyoTrip.Android\obj\Debug\res\drawable\layer_4.png

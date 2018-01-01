@@ -17,15 +17,16 @@
                HorizontalOptions="End" 
                HorizontalTextAlignment="End"/>
         <Label Text="{Binding ActivityDescription}"
-               TextColor="#4f5d68"
+               TextColor="#BBBBBB"
                FontSize="Micro"
                HorizontalOptions="End" />
     </StackLayout>
     <BoxView WidthRequest="2"
-             BackgroundColor="#192227"
+             BackgroundColor="White"
              Grid.ColumnSpan="2"
              HorizontalOptions="Center" 
-             VerticalOptions="Fill"/>
+             VerticalOptions="Fill"
+             Margin="0, 10, 0, 0"/>
     <Image Source="circle.png"
            Grid.ColumnSpan="2"
            HorizontalOptions="Center"
