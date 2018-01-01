@@ -16,11 +16,8 @@ namespace MyTokyoTrip
 
         public ActivityModels()
         {
-            DateTime startTime;
-            DateTime endTime;
-
-            DateTime.TryParse("09/01/2018 00:00:00.00", out startTime);
-            DateTime.TryParse("09/01/2018 05:00:00.00", out endTime);
+            DateTime.TryParse("09/01/2018 00:00:00.00", out DateTime startTime);
+            DateTime.TryParse("09/01/2018 05:00:00.00", out DateTime endTime);
             Jan9th.Add(new ActivityModel
             {
                 StartTime = startTime,
@@ -105,8 +102,168 @@ namespace MyTokyoTrip
             {
                 StartTime = startTime,
                 EndTime = endTime,
-                ActivityName = "휴식",
+                ActivityName = "휴힉 및 취침",
                 ActivityDescription = "첫 날은 여유롭게"
+            });
+
+            DateTime.TryParse("10/01/2018 06:00:00.00", out startTime);
+            DateTime.TryParse("10/01/2018 07:00:00.00", out endTime);
+            Jan10th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "기상 및 준비",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("10/01/2018 07:00:00.00", out startTime);
+            DateTime.TryParse("10/01/2018 08:00:00.00", out endTime);
+            Jan10th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "디즈니랜드 이동",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("10/01/2018 08:00:00.00", out startTime);
+            DateTime.TryParse("10/01/2018 20:00:00.00", out endTime);
+            Jan10th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "디즈니랜드!!",
+                ActivityDescription = "여기에 가고 싶은 어트랙션 적어두기"
+            });
+
+            DateTime.TryParse("10/01/2018 20:00:00.00", out startTime);
+            DateTime.TryParse("10/01/2018 21:00:00.00", out endTime);
+            Jan10th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "신주쿠 도착",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("10/01/2018 21:00:00.00", out startTime);
+            DateTime.TryParse("10/01/2018 23:00:00.00", out endTime);
+            Jan10th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "술집",
+                ActivityDescription = "가고싶은 술집 찾기"
+            });
+
+            DateTime.TryParse("10/01/2018 23:00:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 09:00:00.00", out endTime);
+            Jan10th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "휴식 및 취침",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("11/01/2018 09:00:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 10:00:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "기상 및 준비",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("11/01/2018 10:00:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 11:30:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "브런치 :)",
+                ActivityDescription = "Mr.Parmer"
+            });
+
+            DateTime.TryParse("11/01/2018 10:00:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 11:30:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "브런치 :)",
+                ActivityDescription = "Mr.Parmer"
+            });
+
+            DateTime.TryParse("11/01/2018 11:30:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 14:00:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "신주쿠 근처 놀 곳 구경",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("11/01/2018 14:00:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 15:00:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "아사쿠사 이동",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("11/01/2018 15:00:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 17:30:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "아사쿠사 구경",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("11/01/2018 17:30:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 18:30:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "아사쿠사 호텔 식사",
+                ActivityDescription = "아사쿠사뷰 호텔 무사시 스카이 뷔페"
+            });
+
+            DateTime.TryParse("11/01/2018 18:30:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 20:30:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "아사쿠사 온천",
+                ActivityDescription = "Jakotsuyu"
+            });
+
+            DateTime.TryParse("11/01/2018 20:30:00.00", out startTime);
+            DateTime.TryParse("11/01/2018 22:30:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "신주쿠 이동 및 야시장 먹거리 쇼핑",
+                ActivityDescription = ""
+            });
+
+            DateTime.TryParse("11/01/2018 20:30:00.00", out startTime);
+            DateTime.TryParse("12/01/2018 09:00:00.00", out endTime);
+            Jan11th.Add(new ActivityModel
+            {
+                StartTime = startTime,
+                EndTime = endTime,
+                ActivityName = "휴식 및 취침",
+                ActivityDescription = ""
             });
         }
     }

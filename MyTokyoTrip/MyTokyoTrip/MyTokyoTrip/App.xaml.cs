@@ -9,11 +9,17 @@ namespace MyTokyoTrip
 {
     public partial class App : Application
     {
+        public NavigationPage navigationPage;
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MyTokyoTrip.MainPage();
+            navigationPage = new NavigationPage(new MainPage())
+            {
+                Title = "1월 9일"
+            };
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()
