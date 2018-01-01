@@ -14,7 +14,8 @@
                FontAttributes="Bold"
                TextColor="White"
                FontSize="Medium"
-               HorizontalOptions="End" />
+               HorizontalOptions="End" 
+               HorizontalTextAlignment="End"/>
         <Label Text="{Binding ActivityDescription}"
                TextColor="#4f5d68"
                FontSize="Micro"

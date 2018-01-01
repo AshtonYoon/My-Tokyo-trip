@@ -1,3 +1,7 @@
+MyTokyoTrip.Droid.FloatingActionButton, MyTokyoTrip.Android;md52b7b3fe304f4030a4724c00d0fd8a77f.FloatingActionButton
+MyTokyoTrip.Droid.FloatingActionButton, MyTokyoTrip.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52b7b3fe304f4030a4724c00d0fd8a77f.FloatingActionButton
+MyTokyoTrip.Droid.FloatingActionButton;md52b7b3fe304f4030a4724c00d0fd8a77f.FloatingActionButton
+mytokyotrip.droid.FloatingActionButton;md52b7b3fe304f4030a4724c00d0fd8a77f.FloatingActionButton
 MyTokyoTrip.Droid.MainActivity, MyTokyoTrip.Android;md52b7b3fe304f4030a4724c00d0fd8a77f.MainActivity
 MyTokyoTrip.Droid.MainActivity, MyTokyoTrip.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52b7b3fe304f4030a4724c00d0fd8a77f.MainActivity
 MyTokyoTrip.Droid.MainActivity;md52b7b3fe304f4030a4724c00d0fd8a77f.MainActivity
