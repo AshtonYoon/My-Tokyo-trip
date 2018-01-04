@@ -14,7 +14,7 @@ namespace MyTokyoTrip
         public App()
         {
             InitializeComponent();
-            
+
             MainPage = new MainPage();
         }
 

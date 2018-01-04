@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using FFImageLoading.Forms.Droid;
+using Xamarin.Forms;
 
 namespace MyTokyoTrip.Droid
 {
@@ -20,6 +21,7 @@ namespace MyTokyoTrip.Droid
 
             base.OnCreate(bundle);
 
+            Forms.SetFlags("FastRenderers_Experimental");
             global::Xamarin.Forms.Forms.Init(this, bundle);
             CachedImageRenderer.Init(enableFastRenderer: true);
             LoadApplication(new App());
